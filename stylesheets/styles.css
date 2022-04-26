@@ -1,0 +1,75 @@
+/*General rules applied to whole page*/
+html {
+  font-family: Roboto, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0px 0px 0px 0px;
+}
+
+/*Font rules as stated by odin project assignment*/
+
+h1 {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+}
+
+.header-link {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: light-italic;
+  color: #1F2937;
+}
+
+/*css for the main page contents*/
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.item {
+  flex: 1;
+}
+
+button {
+  background-color: #3882F6;
+}
+
+.header {
+  background-color: #1F2937;
+}
+
+.hero {
+  background-color: #1F2937;
+}
+
+.info {
+
+}
+
+.quote-box {
+  background-color: #E5E7EB;
+}
+
+.sign-up-box {
+
+}
